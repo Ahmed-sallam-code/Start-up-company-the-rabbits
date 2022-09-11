@@ -1,0 +1,71 @@
+#title{
+    background-color: #FF4C68;
+    background-image:url(https://www.europeanregionofgastronomy.org/wp-content/uploads/2016/05/3020337-poster-p-1-with-farmplicity-the-farm-to-table-movement-meets-the-21st-century.jpg) ;
+    padding: 50px;
+    background-blend-mode: darken;
+    padding-top: 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%)
+}
+    h1{
+    font-family: "Montserrat";
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding:2% 10% 2% 10%;
+    margin-top: 2%;
+}
+.rabbit0{
+    transform: rotate(9deg);
+    animation-name: rabbit;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes rabbit {
+    from{
+        transform: rotate(9deg);
+    }
+    to{
+        transform: rotate(10deg);
+    }
+}
+.tnav{
+    font-family: "ubuntu";
+    font-size: 1.2rem;
+}
+body{
+    font-family: "Montserrat";
+}
+.navbar-brand{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+
+/*Features-section*/
+#features{
+    margin: 8% 0;
+    font-family: Candal;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.feat-des{
+    color: #8F8F8F;
+    margin-bottom: 15%;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0 5%;
+}
+.fav-icon{
+    font-size: 4.5rem;
+    margin-bottom: 7%;
+    color:#EF8172;
+    transition: 500ms;
+}
+.fav-icon:hover{
+    color:#FF4C68;
+    font-size: 5rem;
+}
