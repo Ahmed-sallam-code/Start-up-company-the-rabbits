@@ -36,7 +36,7 @@
 .tnav{
     font-family: "ubuntu";
     font-size: 1.2rem;
-    overflow-x: hidden;
+    max-width:100%;
 
 }
 body{
