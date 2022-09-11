@@ -36,12 +36,14 @@
 .tnav{
     font-family: "ubuntu";
     font-size: 1.2rem;
-    max-width:100%;
+    width:100%;
+    overflow-x:clip;
 
 }
 body{
     font-family: "Montserrat";
     overflow-x: hidden;
+    overflow-x:clip;
 }
 .navbar-brand{
     font-size: 1.6rem;
