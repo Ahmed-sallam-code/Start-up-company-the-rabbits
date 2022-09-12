@@ -7,11 +7,11 @@
     padding-top: 100px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%)
 }
-    h1{
+h1{
     font-family: "Montserrat";
     font-size: 4rem;
     line-height: 1.5;
-    color: white;
+    color: #fff;
 }
 h2{
     font-family: "Candal";
@@ -49,6 +49,7 @@ h2{
 body{
     font-family: "Montserrat";
     overflow-x: clip;
+    padding-bottom: 0;
 }
 .navbar-brand{
     font-size: 1.6rem;
@@ -56,7 +57,7 @@ body{
 }
 @media (max-width:600px){
     h1{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         line-height: 1.25;
         color: white;
         font-weight: 800;
@@ -73,7 +74,7 @@ body{
 
 /*Features-section*/
 #features{
-    margin: 8% 0;
+    padding: 8% 0;
     font-family: Candal;
     font-weight: bold;
     font-size: 1.5rem;
@@ -107,7 +108,7 @@ body{
 
 }
 .testimonial-text{    
-    color: #fff
+    color: #fff;
     font-family: "Candal";
     font-size: 2rem;
     line-height: 1.5;
@@ -123,10 +124,23 @@ body{
 }
 .carousel{
     height: 500px;
+
 }
 @media (max-width:600px){
     .carousel{
-        height: 700px;
+        height: 450px;
+    }
+    .testimonial-text{    
+        color: #fff;
+        font-family: "Candal";
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    .testimonial-img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+        margin: 5% 2%;
     }   
 }
 
@@ -145,4 +159,62 @@ body{
 
 .pricing-text{
     color: #000;
+}
+
+/*Call to action*/
+
+#cta{
+    text-align: center;
+    background-color: #72E0EF;
+    padding: 5% 10%;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-image:url(https://www.nestle.com/sites/default/files/styles/da_vinci_header_hero_desktop/public/2022-02/sustainability-nature-forest-river-article-header-fw.jpg?h=a612ed85&itok=1mqqgg1L) ;
+}
+.cta-text{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+}
+.brand-font{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+    font-family: "ubuntu";
+    margin-top: 5%;
+}
+
+/*Footer*/
+
+#footer{
+    /*text-align: end;*/
+    padding: 1% 10% 0 10%;
+    text-align: center;
+    background-color: #72E0EF;
+    overflow-y: hidden;
+}
+footer{
+padding-bottom: 0;
+}
+.social{
+    height: 70px;
+}
+.social-icon{
+    font-size: 2rem;
+    margin: 2% 4% 2% 4%;
+    transition: 500ms;
+}
+@media (min-width:600px){
+.social-icon:hover{
+    font-size: 2.5rem;
+    margin: 2% 5% 2% 5%;    
+}
+}
+@media (max-width:600px){
+    .social-icon{
+        margin: 2% 4% 0 4%;
+    }
+    .social{
+        height: 50px;
+    }
 }
