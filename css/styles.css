@@ -91,8 +91,11 @@ body{
      clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
 
 }
-.testimonial-text{
-    height: auto;
+.testimonial-text{    
+    color: #fff
+    font-family: "Candal";
+    font-size: 2rem;
+    line-height: 1.5;
 }
 .testimonial-img{
     width: 80px;
@@ -104,13 +107,14 @@ body{
     padding: 15% 15% 5% 15%;
 }
 .carousel{
-    height: 520px;
+    height: 500px;
 }
 @media (max-width:600px){
     .carousel{
         height: 700px;
     }   
 }
+
 /*Press section*/
 
 #press{
@@ -118,4 +122,12 @@ body{
     text-align: center;
     padding: 2% 15% 5% 15%;
 }
+/*Pricing section*/
+#pricing{
+    text-align: center;
+    padding: 10% 15%;
+}
 
+.pricing-text{
+    color: #000;
+}
