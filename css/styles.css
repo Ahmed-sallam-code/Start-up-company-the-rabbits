@@ -108,7 +108,7 @@ body{
 }
 @media (max-width:600px){
     .carousel{
-        height: 800px;
+        height: 700px;
     }   
 }
 /*Press section*/
