@@ -13,6 +13,12 @@
     line-height: 1.5;
     color: white;
 }
+h2{
+    font-family: "Candal";
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+}
 .container-fluid{
     padding:2% 10% 2% 10%;
     margin-top: 2%;
@@ -36,14 +42,13 @@
 .tnav{
     font-family: "ubuntu";
     font-size: 1.2rem;
-    width:100%;
-    overflow-x:clip;
+    overflow-x: clip;
+    width: 100%;
 
 }
 body{
     font-family: "Montserrat";
-    overflow-x: hidden;
-    overflow-x:clip;
+    overflow-x: clip;
 }
 .navbar-brand{
     font-size: 1.6rem;
@@ -75,3 +80,38 @@ body{
     color:#FF4C68;
     font-size: 5rem;
 }
+
+
+/*Testimonials section*/
+
+
+#testimonials{
+    background-color: #EF8172;
+    text-align: center;
+     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+
+}
+.testimonial-text{
+    height: auto;
+}
+.testimonial-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 5% 2%;
+}
+.carousel-item{
+    padding: 15% 15% 5% 15%;
+}
+.carousel{
+    height: 550px;
+}
+
+/*Press section*/
+
+#press{
+    background-color: #EF8172;
+    text-align: center;
+    padding: 2% 15% 5% 15%;
+}
+
