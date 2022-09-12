@@ -104,9 +104,13 @@ body{
     padding: 15% 15% 5% 15%;
 }
 .carousel{
-    height: 650px;
+    height: 520px;
 }
-
+@media (max-width:600px){
+    .carousel{
+        height: 800px;
+    }   
+}
 /*Press section*/
 
 #press{
